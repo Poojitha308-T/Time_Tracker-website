@@ -6,7 +6,7 @@ Users can securely log in, add activities for specific dates, and view detailed 
 
 *Live Demo Link (Deployed Link)*
 
-https://poojitha308-t.github.io/AI-Evaluation/
+https://poojitha308-t.github.io/Time_Tracker-website/
 
 *Video Walkthrough Link*
 
@@ -81,3 +81,4 @@ If NO data available:
 -> A beautiful “No data available” screen
 
 -> A helpful CTA (“Start logging your day!”)
+
