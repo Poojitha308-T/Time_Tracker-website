@@ -79,4 +79,5 @@ If data exists for the selected date:
 
 If NO data available:
 -> A beautiful “No data available” screen
+
 -> A helpful CTA (“Start logging your day!”)
