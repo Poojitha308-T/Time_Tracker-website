@@ -1,0 +1,140 @@
+/* ===== Global ===== */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Smooth transitions everywhere */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* ===== Card Styling ===== */
+.bg-white {
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Buttons ===== */
+button {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Primary Button */
+.bg-indigo-600 {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  border: none;
+}
+
+.bg-indigo-600:hover {
+  background: linear-gradient(135deg, #4338ca, #4f46e5);
+}
+
+/* Success Button */
+.bg-green-600 {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  border: none;
+}
+
+.bg-green-600:hover {
+  background: linear-gradient(135deg, #15803d, #16a34a);
+}
+
+/* Logout */
+.bg-rose-500 {
+  background: linear-gradient(135deg, #f43f5e, #fb7185);
+  border: none;
+}
+
+/* ===== Inputs ===== */
+input,
+select {
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* ===== Activity List ===== */
+#activities-list li {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+#activities-list li:hover {
+  background: #f1f5f9;
+  transform: scale(1.01);
+}
+
+/* Delete Button */
+#activities-list button {
+  background: #fee2e2;
+  color: #b91c1c;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+#activities-list button:hover {
+  background: #fecaca;
+}
+
+/* ===== Charts ===== */
+canvas {
+  max-height: 280px;
+}
+
+/* ===== Login Card Animation ===== */
+#login-screen .bg-white {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== App Screen Animation ===== */
+#app-screen {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* ===== Error Message ===== */
+#form-error {
+  background: #fee2e2;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* ===== Scrollbar (Modern Look) ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
